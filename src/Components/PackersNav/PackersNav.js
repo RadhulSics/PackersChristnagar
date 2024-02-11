@@ -15,7 +15,7 @@ function PackersNav() {
             <div className="navbar-nav ms-auto py-0 pr" >
                 <Link to='/packers-home'  className="nav-item nav-link ">Home</Link>
                 <Link to='/packers-view-movers'  className="nav-item nav-link ">Movers</Link>
-                <Link  className="nav-item nav-link">Orders</Link>
+                {/* <Link  className="nav-item nav-link">Orders</Link> */}
                 <Link to='/packers-profile' className="nav-item nav-link">Profile</Link>
                 {/* <Link to='/movers-login' className="nav-item nav-link">Movers</Link> */}
                 {/* <div className="nav-item dropdown">

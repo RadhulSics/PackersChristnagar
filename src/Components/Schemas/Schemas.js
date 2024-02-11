@@ -8,10 +8,10 @@ export const packersRegSchema  = yup.object().shape({
     password: yup.string().min(5,"1 uppercase, 1 number, 1 symbol").max(16).matches(passwordRule,"1 uppercase, 1 number, 1 symbol").required("Required"),
     email: yup.string().email("Please enter a valid email").required("Required"),
     gender: yup.string().required("Required"),
-    contact: yup.number().min(10,"Phone number must be a 10 digit number").positive().integer().required("Required"),
+    contact: yup.number().min(1000000000,"Phone number must be a 10 digit number").max(9999999999,"Phone number must be a 10 digit number").positive().integer().required("Required"),
     city: yup.string().min(2,"Please enter a valid address").required("Required"),          
     district: yup.string().min(2,"Please enter a valid address").required("Required"),          
-    pincode: yup.number().min(6,"Phone number must be a 10 digit number").positive().integer().required("Required"),
+    pincode: yup.string()
 })
 
 export const moversRegSchema  = yup.object().shape({
@@ -21,10 +21,10 @@ export const moversRegSchema  = yup.object().shape({
     // godown: yup.string().required("Required"),
     password: yup.string().min(5,"1 uppercase, 1 number, 1 symbol").max(16).matches(passwordRule,"1 uppercase, 1 number, 1 symbol").required("Required"),
     // area: yup.string().required("Required")     
-    contact: yup.number().min(10,"Phone number must be a 10 digit number").positive().integer().required("Required"),
+    contact: yup.number().min(1000000000,"Phone number must be a 10 digit number").max(9999999999,"Phone number must be a 10 digit number").positive().integer().required("Required"),
     city: yup.string().min(2,"Please enter a valid address").required("Required"),          
     district: yup.string().min(2,"Please enter a valid address").required("Required"),          
-    pincode: yup.number().min(6,"Phone number must be a 10 digit number").positive().integer().required("Required"),
+    pincode: yup.string(),
     email: yup.string().email("Please enter a valid email").required("Required"),
 
 })
@@ -77,7 +77,7 @@ export const driverRegSchema  = yup.object().shape({
     password: yup.string().min(5,"1 uppercase, 1 number, 1 symbol").max(16).matches(passwordRule,"1 uppercase, 1 number, 1 symbol").required("Required"),
     email: yup.string().email("Please enter a valid email").required("Required"),
     gender: yup.string().required("Required"),
-    contact: yup.number().min(10,"Phone number must be a 10 digit number").positive().integer().required("Required"),
+    contact: yup.number().min(1000000000,"Phone number must be a 10 digit number").max(9999999999,"Phone number must be a 10 digit number").positive().integer().required("Required"),
     licenceNo: yup.string().min(2,"Please enter a valid address").required("Required"),          
     mid: yup.string().required("Required"),          
 })

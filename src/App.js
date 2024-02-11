@@ -64,7 +64,6 @@ function App() {
           <Route path="/movers-login" element={<MoversLogin/>}/>
           <Route path="/movers-reg" element={<MoversReg/>}/>
           <Route path="/movers-home" element={<MoversHome/>}/>
-         
           <Route path="/movers-profile" element={<MoversProfile/>}/>
           <Route path="/movers-editprofile" element={<MoversEditProfile/>}/>
           <Route path="/movers-forgot-pass" element={<MoversForgotPass/>}/>

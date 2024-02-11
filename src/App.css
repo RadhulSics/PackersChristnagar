@@ -114,8 +114,9 @@
 }
 
 .hero-header {
-  background: url(../src/Images/hero.jpg) top right no-repeat;
-  background-size: cover;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../src/Images/hero1.jpg) top right no-repeat;
+background-size: cover;
+
 }
 
 .btn-play {

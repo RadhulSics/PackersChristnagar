@@ -77,14 +77,14 @@ function PackersProfile() {
                       <p>{packer.name}</p>
                     </div>
                   </div>
-                  <div className="row">
+                  {/* <div className="row">
                     <div className="col-md-6">
                       <label>E-mail</label>
                     </div>
                     <div className="col-md-6">
                       <p>{packer.email}</p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="row">
                     <div className="col-md-6">
                       <label>Contact</label>
@@ -93,14 +93,14 @@ function PackersProfile() {
                       <p>{packer.contact}</p>
                     </div>
                   </div>
-                  <div className="row">
+                  {/* <div className="row">
                     <div className="col-md-6">
                       <label>Gender</label>
                     </div>
                     <div className="col-md-6">
                       <p>{packer.gender ? packer.gender : " - "}</p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="row">
                     <div className="col-md-6">
                       <label>City</label>

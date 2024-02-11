@@ -79,14 +79,14 @@ function MoversProfile() {
                       <p>{value.name}</p>
                     </div>
                   </div>
-                  <div className="row">
+                  {/* <div className="row">
                     <div className="col-md-6">
                       <label>E-mail</label>
                     </div>
                     <div className="col-md-6">
                       <p>{value.email}</p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="row">
                     <div className="col-md-6">
                       <label>Reg No</label>

@@ -8,14 +8,14 @@ function Corousel() {
         <div className="container py-5">
           <div className="row justify-content-start">
             <div className="col-lg-8 text-center text-lg-start">
-              <h1 className="display-1 text-uppercase  mb-lg-4" style={{color:'white',fontWeight:'bold'}}>
-              Welcome to<br/> Let's Go
+              <h1 className="display-1 text-uppercase  mb-lg-4" style={{color:'white',fontWeight:'bold',fontSize:'50px'}}>
+              <span style={{color:'#0d6efd'}}  >Move Smart,</span> Move Swift: Your Logistics Revolution Starts Here!
               </h1>
               <h1 className="text-uppercase text-white mb-lg-4">
               Your Reliable Moving Solutions!
               </h1>
               <p className="fs-4 text-white mb-lg-4">
-              Experience seamless and stress-free moving services with Packers and Movers. Our dedicated team ensures efficient packing, secure transportation, and timely delivery, making your relocation a breeze. Trust us to handle your move with utmost care and professionalism.              </p>
+              Welcome to Let's Go, your go-to destination for streamlined goods movement. We connect businesses with transporters, creating a transparent platform for efficient transactions. With user-friendly features, we simplify the process, allowing businesses to post loads and receive competitive bids. Whether you're a business owner or a transporter, join us in revolutionizing logistics across India.</p>
               {/* <div className="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
                 <Link
                   to="/about"
